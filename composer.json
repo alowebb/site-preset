@@ -1,0 +1,25 @@
+{
+  "name": "aloweb/site-preset",
+  "description": "The default Aloweb preset.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Connor",
+      "email": "hello@aloweb.co.uk"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Aloweb\\SitePreset": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Aloweb\\SitePreset\\AlowebServiceProvider"
+      ]
+    }
+  }
+}
