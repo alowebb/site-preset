@@ -1,6 +1,6 @@
 <?php
 
-namespace Miotk;
+namespace Aloweb\SitePreset;
 
 use Illuminate\Foundation\Console\Presets\Preset as LaravelPreset;
 use Illuminate\Support\Facades\File;
